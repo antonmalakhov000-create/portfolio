@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="first-section">
+        <img src="me.jpg" alt="Image">
+        <h1>Anton Malakhov</h1>
+        <h2>I'm a web developer focused on building clean and functional websites.
+             I mainly work with HTML, CSS and JavaScript,
+             and I'm constantly improving my skills by working on new projects and learning new technologies.</h2>
+        <button id="first-section-button">Let's get started ></button>
+    </div>
+    <div id="second-section">
+        <h1 id="second-section-title">My projects</h1>
+        <h2 id="second-section-desc">Some of the projects I've built while learning and improving my web development skills</h2>
+        <div class="project">
+            <img src="spotify.png" alt="project-preview">
+            <h1>Spotify design clone</h1>
+            <h2>Not adaptive spotify design clone built with html & css</h2>
+            <button id="spotify-preview">Preview</button>
+        </div>
+        <div class="project">
+            <img src="coffee.png" alt="project-preview">
+            <h1>Coffee business website</h1>
+            <h2>Fully adaptive coffee business website built with html & css</h2>
+            <button id="coffee-preview">Preview</button>
+        </div>
+    </div>
+    <div id="third-section">
+        <h1 id="third-section-title">Testimonials</h1>
+        <h2 id="third-section-desc">What people I've worked with say about my work and their experience working with me.</h2>
+        <div id="reviews">
+            <div class="testimonial">
+                <h3>Review</h3>
+                <div>
+                    <img src="me.png" alt="client img">
+                    <h1>Client name</h1>
+                </div>
+            </div>
+            <div class="testimonial">
+                <h3>Review</h3>
+                <div>
+                    <img src="me.png" alt="client img">
+                    <h1>Client name</h1>
+                </div>
+            </div>
+            <div class="testimonial">
+                <h3>Review</h3>
+                <div>
+                    <img src="me.png" alt="client img">
+                    <h1>Client name</h1>
+                </div>
+            </div>
+            <div class="testimonial">
+                <h3>Review</h3>
+                <div>
+                    <img src="me.png" alt="client img">
+                    <h1>Client name</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fourth-section">
+        <h1>Get In Touch</h1>
+        <h2>Have a project in mind or want to work together? Feel free to send me a message and I'll get back to you as soon as I can.</h2>
+        <form action="https://formspree.io/f/xppqzgao" method="POST">
+            <div id="email">
+                <h3>Email</h3>
+                <input type="email" name="email" placeholder="Please enter your email" required>
+            </div>
+            <div id="mobile">
+                <h3>Mobile</h3>
+                <input type="tel" name="mobile" placeholder="Enter your mobile">
+            </div>
+            <div id="message">
+                <h3>Message</h3>
+                <textarea name="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit">Submit ></button>
+        </form>
+    </div>
+    <div id="under-text">
+        <div></div>
+        <h1>Made with experience</h1>
+    </div>
+    <script>
+        document.getElementById("first-section-button").addEventListener('click', function() {
+            document.getElementById("second-section").scrollIntoView({
+                behavior: "smooth"
+            })
+        })
+
+        document.getElementById("spotify-preview").addEventListener('click', function() {
+            window.open("https://antonmalakhov000-create.github.io/spotify-clone/", "_blank")
+        })
+
+        document.getElementById("coffee-preview").addEventListener('click', function() {
+            window.open("https://antonmalakhov000-create.github.io/coffee-portfolio/")
+        })
+    </script>
+</body>
+</html>

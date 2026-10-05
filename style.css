@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+}
+
+/*FIRST SECTION*/
+
+#first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #080808;
+}
+#first-section img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 2.5rem 0 0 0;
+}
+#first-section h1 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 2.5rem 0 0 0;
+}
+#first-section h2 {
+    color: #575757;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 1rem;
+    margin: 2.5rem 4rem 0 4rem;
+}
+#first-section button {
+    margin: 2.5rem 0 2.5rem 0;
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #3f8e00;
+    border: 1px #122406 solid;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 7.5px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+#first-section button:hover {
+    background-color: #57be02;
+    transition: all ease 0.2s;
+}
+
+/*SECOND SECTION*/
+
+#second-section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#second-section-title {
+    color: #080808;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 3rem 0 0 0;
+    font-size: 2rem;
+}
+#second-section-desc {
+    color: #c9c9c9;
+    font-size: 1rem;
+    margin: 1.5rem 5rem 0 5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.project {
+    margin: 3rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.project img {
+    width: 75vw;
+    max-width: 60rem;
+    height: auto;
+    margin: 0;
+    border-radius: 10px;
+}
+.project h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.75rem;
+    margin: 2rem 0 0 0;
+    color: #080808;
+    text-align: center;
+}
+.project h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #c9c9c9;
+    font-size: 1rem;
+    margin: 0.75rem 5rem 0 5rem;
+    text-align: center;
+}
+.project button {
+    margin: 2rem 0 5rem 0;
+    width: 40vw;
+    height: 3.5rem;
+    background-color: #3f8e00;
+    border: none;
+    border-radius: 7.5px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+.project button:hover {
+    background-color: #57be02;
+    transition: all ease 0.2s;
+}
+
+/*THIRD SECTION*/
+
+#third-section {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #080808;
+}
+#third-section-title {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 3rem 0 0 0;
+    font-size: 2rem;
+}
+#third-section-desc {
+    color: #575757;
+    font-size: 1rem;
+    margin: 1.5rem 5rem 0 5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#reviews {
+    display: grid;
+    gap: 3rem;
+    margin: 3rem 0 5rem 0;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #141414;
+    border-radius: 7.5px;
+    width: 60vw;
+    max-width: 35rem;
+    height: 27.5vw;
+    max-height: 15rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+.testimonial h3 {
+    margin: 1rem 0 0 0rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+    color: #474747;
+}
+.testimonial div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0 0 0;
+}
+.testimonial img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.testimonial h1 {
+    margin: 0 0 0 1rem;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/*FOURTH SECTION*/
+
+#fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #080808;
+}
+#fourth-section h1 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    margin: 3rem 0 0 0;
+}
+#fourth-section h2 {
+    color: #575757;
+    font-size: 1rem;
+    margin: 1rem 5rem 0 5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#fourth-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+    margin: 1rem 0 0 0;
+}
+#fourth-section h3 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0;
+    font-size: 1rem;
+}
+#fourth-section input{
+    width: 15rem;
+    border-radius: 5px;
+    border: none;
+}
+#fourth-section input::placeholder {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+#email input, #mobile input {
+    height: 2.5rem;
+    font-size: 1rem;
+    width: 40vw;
+    max-width: 35rem;
+}
+#message textarea {
+    height: 10rem;
+    width: 40vw;
+    max-width: 35rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+#message textarea::placeholder {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+#fourth-section button {
+    width: 40vw;
+    max-width: 35rem;
+    height: 3.5rem;
+    margin: 3rem 0 3rem 0;
+    font-size: 1.25rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #3f8e00;
+    border: none;
+    border-radius: 7.5px;
+    transition: all ease 0.2s;
+}
+#fourth-section button:hover {
+    background-color: #57be02;
+    transition: all ease 0.2s;
+}
+
+/**/
+
+#under-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+}
+#under-text div {
+    width: 85%;
+    height: 0.1rem;
+    background-color: #575757;
+    border-radius: 0.05rem;
+}
+#under-text h1 {
+    color: #575757;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 3rem 0 3rem 0;
+}
